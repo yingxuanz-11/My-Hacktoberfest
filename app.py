@@ -38,7 +38,19 @@ while True:
       feelings_list.append("sad")
       encouragement_list.append("look on the brighter side or talk to your friends")
       counter += 1  
-      
+    
+    
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("talk to your friends.Maybe you will feel better")
+      counter += 1
+     if each_word == "excited":
+      feelings_list.append("excited")
+      encouragement_list.append("Good for you!I bet you will be able to do well!")
+      counter += 1  
+    
+    
+    
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
